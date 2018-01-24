@@ -1,3 +1,3 @@
 require './app/app'
-ENV["RACK-ENV"] ||= ‘_development’
+ENV['RACK-ENV'] ||= "development"
 run Bookmark

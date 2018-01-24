@@ -1,11 +1,15 @@
 
-ENV["RACK-ENV"] ||= "development"
+ENV['RACK-ENV'] ||= 'development'
 
 require './app/model/link'
 require 'sinatra/base'
 # require 'data_mapper'
 
 class Bookmark < Sinatra::Base
+
+  get '/' do
+    redirect '/links'
+  end
 
   get '/links'do
     @bookmarks = Link.all

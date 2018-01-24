@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/philbugden/projects/week4/bookmark-manager2/spec/features/creating_links_spec.rb": [
+      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/creating_links_spec.rb": [
         null,
         1,
         1,
@@ -10,10 +10,19 @@
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
         null,
         null
       ],
-      "/Users/philbugden/projects/week4/bookmark-manager2/spec/features/testing_infrastructure_spec.rb": [
+      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/testing_infrastructure_spec.rb": [
         null,
         null,
         1,
@@ -31,6 +40,6 @@
         null
       ]
     },
-    "timestamp": 1516723604
+    "timestamp": 1516803584
   }
 }
