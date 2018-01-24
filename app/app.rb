@@ -7,10 +7,6 @@ require 'sinatra/base'
 
 class Bookmark < Sinatra::Base
 
-  get '/' do
-    "empty"
-  end
-
   get '/links'do
     @bookmarks = Link.all
     erb :links
