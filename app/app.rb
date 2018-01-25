@@ -26,9 +26,14 @@ class Bookmark < Sinatra::Base
     link = Link.create(url: params[:url], title: params[:title])
     tag  = Tag.first_or_create(name: params[:tag])
     link.tags << tag
-    # binding.pry
     link.save
     redirect '/links'
+  end
+
+  get '/tags/:name' do
+    tag = Tag.first(name: params[:name])
+    @bookmarks = tag ? tag.links : []
+    erb :links
   end
 
 run! if app_file == $0
