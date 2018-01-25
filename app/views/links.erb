@@ -5,7 +5,7 @@
     <li>
       Title: <%= bm.title %>
       URL:   <%= bm.url   %>
-      Tag:   <%= bm.tags.map(&:name).join("")  %>
+      Tag:   <%= bm.tags.map(&:name).join(", ")  %>
     </li>
   <% end %>
 </ul>
