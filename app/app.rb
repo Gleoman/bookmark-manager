@@ -23,10 +23,16 @@ class Bookmark < Sinatra::Base
   end
 
   post '/links' do
-    link = Link.create(url: params[:url], title: params[:title])
-    tag  = Tag.first_or_create(name: params[:tag])
-    link.tags << tag
+    link = Link.new(url: params[:url], title: params[:title])
+    (params[:tag]).split(", ").map do |t|
+      tag = Tag.first_or_create(name: t)
+      link.tags << tag
+    end
     link.save
+    # tag  = Tag.first_or_create(name: params[:tag])
+    # # tag  = Tag.first_or_create(name: params[:tag])
+    # link.tags << tag
+    # link.save
     redirect '/links'
   end
 

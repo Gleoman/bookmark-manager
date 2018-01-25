@@ -13,6 +13,18 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/creating_links_spec.rb": [
@@ -72,6 +84,6 @@
         null
       ]
     },
-    "timestamp": 1516892091
+    "timestamp": 1516895387
   }
 }
