@@ -15,4 +15,14 @@ feature 'creating a user account' do
     click_button 'Submit'
     expect(User.count).to eq 0
   end
+
+  scenario 'User doesnt validate password' do
+    visit '/'
+    fill_in 'email', with: 'user.email@gmail.com'
+    fill_in 'password', with: 'password'
+    fill_in 'password_confirmation', with: 'error'
+    click_button 'Submit'
+
+    expect(current_path).to eq '/'
+  end
 end

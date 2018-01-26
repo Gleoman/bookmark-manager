@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/adding_a_new_tag_spec.rb": [
+      "/Users/lewismoore/Desktop/Projects/MakersAcademy/Projects/week_4/bookmark-manager/spec/features/adding_a_new_tag_spec.rb": [
         null,
         1,
         1,
@@ -28,7 +28,7 @@
         null,
         null
       ],
-      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/creating_links_spec.rb": [
+      "/Users/lewismoore/Desktop/Projects/MakersAcademy/Projects/week_4/bookmark-manager/spec/features/creating_links_spec.rb": [
         null,
         1,
         1,
@@ -42,7 +42,7 @@
         null,
         null
       ],
-      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/creating_user_account_spec.rb": [
+      "/Users/lewismoore/Desktop/Projects/MakersAcademy/Projects/week_4/bookmark-manager/spec/features/creating_user_account_spec.rb": [
         null,
         1,
         1,
@@ -52,6 +52,43 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/lewismoore/Desktop/Projects/MakersAcademy/Projects/week_4/bookmark-manager/spec/features/filtering_by_tag_spec.rb": [
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         1,
@@ -62,34 +99,7 @@
         null,
         null
       ],
-      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/filtering_by_tag_spec.rb": [
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/testing_infrastructure_spec.rb": [
+      "/Users/lewismoore/Desktop/Projects/MakersAcademy/Projects/week_4/bookmark-manager/spec/features/testing_infrastructure_spec.rb": [
         null,
         null,
         1,
@@ -108,6 +118,6 @@
         null
       ]
     },
-    "timestamp": 1516981723
+    "timestamp": 1516982192
   }
 }
