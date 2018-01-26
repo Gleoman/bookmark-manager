@@ -2,8 +2,9 @@
 
 feature 'viewing links' do
     scenario 'upon visiting the links page, see a list of links' do
-      Link.create(url: "www.bbc.co.uk", title: "bbc homepage")
 
+      sign_up
+      Link.create(url: "www.bbc.co.uk", title: "bbc homepage")
       visit('/links')
 
       expect(page.status_code).to eq 200

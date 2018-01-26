@@ -1,6 +1,7 @@
 
 feature 'creating a link' do
   scenario 'adding a site address and title to bookmark' do
+    sign_up
     visit '/links/new'
     fill_in 'title', with: 'bbc'
     fill_in 'url', with: 'www.bbc.com'

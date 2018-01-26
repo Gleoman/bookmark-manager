@@ -1,6 +1,7 @@
 
 feature 'filtering by tag' do
   scenario 'listing all links by tag' do
+    sign_up
     visit '/links/new'
     fill_in 'title', with: 'Chelsea'
     fill_in 'url', with: 'www.chelsea.com'

@@ -1,6 +1,7 @@
 
 feature 'tagging links' do
   scenario 'adding a tag to a link' do
+    sign_up
     visit '/links/new'
     fill_in 'title', with: 'Arsenal'
     fill_in 'url', with: 'www.arsenal.com'
@@ -11,6 +12,7 @@ feature 'tagging links' do
   end
 
   scenario 'adding multiple tags to a link' do
+    sign_up
     visit '/links/new'
     fill_in 'title', with: 'Arsenal'
     fill_in 'url', with: 'www.arsenal.com'

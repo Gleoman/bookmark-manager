@@ -21,6 +21,8 @@ require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
 require 'database_cleaner'
+require 'web_helpers'
+
 Capybara.app = Bookmark
 
 DatabaseCleaner.clean_with :truncation

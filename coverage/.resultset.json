@@ -12,8 +12,10 @@
         1,
         1,
         1,
+        1,
         null,
         null,
+        1,
         1,
         1,
         1,
@@ -30,6 +32,18 @@
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/edwardgoold/Projects/MAcourse/week_4/bookmark_manager/spec/features/creating_user_account_spec.rb": [
+        null,
         1,
         1,
         1,
@@ -62,6 +76,7 @@
         1,
         1,
         1,
+        1,
         null,
         null
       ],
@@ -70,8 +85,9 @@
         null,
         1,
         1,
-        1,
         null,
+        1,
+        1,
         1,
         null,
         1,
@@ -83,6 +99,6 @@
         null
       ]
     },
-    "timestamp": 1516897759
+    "timestamp": 1516971493
   }
 }
