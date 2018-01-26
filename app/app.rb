@@ -21,9 +21,13 @@ class Bookmark < Sinatra::Base
   end
 
   post '/sign_up' do
-    user = User.create(email: params[:email], password: params[:password])
+    user = User.create(email: params[:email], password: params[:password], password_confirmation: params[:password_confirmation])
     session[:user_id] = user.id
-    redirect '/links'
+    if user.id == nil
+      redirect '/'
+    else
+      redirect '/links'
+    end
   end
 
   get '/links'do
@@ -50,6 +54,7 @@ class Bookmark < Sinatra::Base
     @bookmarks = tag ? tag.links : []
     erb :links
   end
+
 
 run! if app_file == $0
 
